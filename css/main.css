@@ -1,0 +1,555 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    background: #ffffff;
+    box-shadow: 6px 6px 10px rgb(189, 185, 185);
+}
+.navbar .btn{
+    color:rgb(33, 32, 32);
+    font-weight: 500;
+    width: 140px;
+    border: 2px solid #FFA200;
+    border-radius: 20px;
+}
+.navbar .btn i{
+    color: #FFA200;
+}
+.navbar .btn:hover{
+    background: #FFA200;
+    color: white;
+}
+.navbar .navbar-brand{
+    margin-left: 100px;
+}
+.navbar-nav{
+    color:black;
+    margin-left: 500px;
+    margin-right: 40px;
+}
+.navbar-nav a {
+    font-size: 16px;
+    font-weight: 350;
+    color:black;
+    margin: 5px;
+}
+.navbar-nav a:hover {
+    color:#FFA200;
+}
+#home .home-txt {
+    position: relative;
+    top: 120px;
+}
+#home .home-txt h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+#home .home-txt p{
+    color: rgb(84, 95, 107);
+    font-size: 20px;
+    font-weight: bold;
+}
+#home .home-txt button{
+    width: 150px;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    background: #FFA200;
+    transition: .5s;
+}
+#home .home-txt button:hover{
+    background: #498BBD;
+}
+#home .home-img{
+    position: relative;
+    top: 0px;
+    animation-name: shokran;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+#clients .clients-all{
+    width: 100%;
+    background: #F3F5FA;
+}
+#clients .col-lg-2 img{
+    filter: grayscale(100%);
+    transition: .5s;
+}
+#clients .col-lg-2 img:hover{
+    filter: none;
+}
+#using{
+    margin-top: 110px;
+}
+#using h1{
+    text-align:center;
+    color: #37517E;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+}
+#using .line-1{
+    width: 15%;
+    height: 1px;
+    margin: auto;
+    background:rgb(162, 170, 166);
+}
+#using .line-2{
+    width: 5%;
+    height: 4px;
+    margin: auto;
+    background:#FFA200;
+}
+#using .row .col-md-6{
+    padding: 30px;
+    margin-top: 40px;
+}
+#using .row .col-md-6 h6{
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+}
+#using .btn{
+    color:#FFA200;
+    font-weight: 500;
+    font-size: 16px;
+    width: 190px;
+    border: 2px solid #FFA200;
+    border-radius: 5px;
+}
+#using .btn i{
+    color: #FFA200;
+}
+#using .btn:hover{
+    background: #FFA200;
+    color: white;
+}
+#about{
+    margin-top: 110px;
+}
+#about h1{
+    text-align:center;
+    color: #37517E;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+}
+#about  .line-1{
+    width: 15%;
+    height: 1px;
+    margin: auto;
+    background:rgb(162, 170, 166);
+}
+#about  .line-2{
+    width: 5%;
+    height: 4px;
+    margin: auto;
+    background:#FFA200;
+}
+#about .row .col-md-6{
+    padding: 30px;
+    margin-top: 40px;
+}
+#about .row .col-md-6 h6{
+    padding-top: 5px;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+}
+#about .row .col-md-6 h6 i{
+    color:#FFA200;
+}
+#about .btn{
+    color:#FFA200;
+    font-weight: 500;
+    font-size: 16px;
+    width: 160px;
+    border: 2px solid #FFA200;
+    border-radius: 5px;
+}
+#about .btn:hover{
+    background: #FFA200;
+    color: white;
+}
+#CATEGORIES{
+    flex-direction: row;
+    margin-top: 110px;
+}
+#CATEGORIES .CATEGORIES-back{
+    padding-top: 5px;
+    padding-bottom:40px;
+    background-color: #f3f5fa;
+}
+#CATEGORIES h1{
+    text-align:center;
+    color: #37517E;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+}
+#CATEGORIES .line-1{
+    width: 15%;
+    height: 1px;
+    margin: auto;
+    background:rgb(162, 170, 166);
+}
+#CATEGORIES .line-2{
+    width: 5%;
+    height: 4px;
+    margin: auto;
+    background:#FFA200;
+}
+
+#CATEGORIES .CATEGORIES-back .col-md-4 img{
+    position: relative;
+    height:250px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#CATEGORIES .CATEGORIES-back .col-md-4 h1{
+    position: absolute;
+    top: 100px;
+    width: 92%;
+    background-color: rgba(255, 162, 0, .7);
+}
+#Brands{
+    padding-top: 5px;
+    padding-bottom:40px;
+    background-color: #f3f5fa;
+}
+#Brands h1{
+    text-align:center;
+    color: #37517E;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+}
+#Brands  .line-1{
+    width: 15%;
+    height: 1px;
+    margin: auto;
+    background:rgb(162, 170, 166);
+}
+#Brands  .line-2{
+    width: 5%;
+    height: 4px;
+    margin: auto;
+    background:#FFA200;
+}
+#Brands .row .col-md-4{
+    margin: 20px 0px;
+}
+#Brands h6{
+    text-align:center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;;
+}
+#Contact .row{
+    margin-top: 50px;
+}
+#Contact h1{
+    text-align:center;
+    color: #37517E;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+}
+#Contact .line-1{
+    width: 15%;
+    height: 1px;
+    margin: auto;
+    background:rgb(162, 170, 166);
+}
+#Contact .line-2{
+    width: 5%;
+    height: 4px;
+    margin: auto;
+    background:#FFA200;
+}
+#Contact h6{
+    text-align:center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+}
+#Contact .btn{
+    width: 190px;
+    color: white;
+    border: 0px;
+    border-radius: 30px;
+    background: #FFA200;
+    transition: .5s;
+}
+#Contact .btn:hover{
+    background: #498BBD;
+}
+#Contact .foorm{
+    padding-top:10px;
+    padding-bottom:10px;
+    border-top: 2px solid #FFA200;
+    border-bottom: 2px solid #FFA200;
+    box-shadow: -1px 0px 2px 1px rgb(180, 180, 186);
+}
+#Social .col-md-12{
+    padding: 30px;
+}
+#Social h1{
+    display: block;
+    color: #37517E;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Jost", sans-serif;
+}
+#Social h2{
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+}
+.social-icons
+{
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none;
+}
+.social-icons li
+{
+    display:inline-block;
+    margin-bottom:4px
+
+}
+.social-icons li.title
+{
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+}
+.social-icons a{
+    background-color:#FFA200;
+    color:#818a91;
+    font-size:20px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+color:#fff;
+background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+line-height:34px;
+height:34px;
+width:34px;
+font-size:14px
+}
+.social-icons a.facebook:hover
+{
+background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+.social-icons li.title
+{
+    display:block;
+    margin-right:0;
+    font-weight:600
+}
+}
+.footer{
+    color:white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #37517E;
+    font-size:16px;
+    font-family: "Jost", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ahmed {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(/img/client-2.png)
+}
+
+
+.mohmmed{
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/cafe.jpg);
+    background-size: 100% 100%; 
+}
+.mohmmed h1{
+    text-align:center;
+    background:#37517E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes shokran {
+    25% {
+        top: -15px;
+    }
+    50% {
+        top: 0px;
+    }
+    75% {
+        top: 15px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px){
+    .navbar .navbar-brand{
+        margin-left: 10px;
+    }
+    .navbar-nav{
+
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #home .home-txt {
+        top: 5px;
+    }
+    #clients .clients-all{
+        margin-top: 10px;
+    }
+    #using{
+        margin-top: 0px;
+    }
+    #using h1{
+        font-size: 30px;
+    }
+    #using .line-1{
+        width: 50%;
+        height: 1px;
+    }
+    #using .line-2{
+        width: 25%;
+        height: 4px;
+    }
+    #using .row .col-md-6 h6{
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    #about{
+        margin-top: 0px;
+    }
+    #about h1{
+        font-size: 30px;
+    }
+    #about .line-1{
+        width: 50%;
+        height: 1px;
+    }
+    #about .line-2{
+        width: 25%;
+        height: 4px;
+    }
+    #about .row .col-md-6 h6{
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    #CATEGORIES h1{
+        font-size: 30px;
+    }
+    #CATEGORIES .line-1{
+        width: 50%;
+        height: 1px;
+    }
+    #CATEGORIES .line-2{
+        width: 25%;
+        height: 4px;
+    }
+    #Brands h1{
+        font-size: 30px;
+    }
+    #Brands  .line-1{
+        width: 50%;
+        height: 1px;
+    }
+    #Brands  .line-2{
+        
+        width: 25%;
+        height: 4px;
+    }
+    #Brands h6{
+        font-size: 16px;;
+    }
+    #Brands .row .col-md-4{
+        margin: 20px 60px;
+    }
+
+
+}
